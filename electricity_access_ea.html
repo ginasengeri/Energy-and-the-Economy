@@ -65,6 +65,35 @@
     margin: 6px 0 10px 0;
   }
 
+  /* ----------- KPI cards (top stats) ----------- */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .kpi-card {
+    background: var(--accent-soft);
+    border-radius: 10px;
+    padding: 10px 12px;
+    border: 1px solid var(--accent);
+  }
+
+  .kpi-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+  }
+
+  .kpi-value {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
   /* ----------- Responsive table layout ----------- */
   .tables-grid {
     display: grid;
@@ -272,4 +301,5 @@
 </body>
 
 </html>
+
 
