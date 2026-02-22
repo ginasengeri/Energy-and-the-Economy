@@ -173,6 +173,22 @@
     .tableau-container {
       margin-top: 16px;
     }
+
+    ol {
+  margin-top: 14px;
+  margin-bottom: 18px;
+}
+
+ol li {
+  margin-bottom: 8px;
+}
+sup {
+  font-size: 0.75em;
+}
+
+sup a {
+  text-decoration: none;
+}
   </style>
 </head>
 
@@ -270,7 +286,7 @@
     <p>The region’s generation structure creates both operational advantages and systemic vulnerabilities.</p>
     <p>Hydro dominance is both a flexibility asset and a concentration risk. Hydro has relatively low marginal costs
       and can adjust output hourly, or faster. It also creates future storage potential, with pumped-storage hydropower
-      (PSH) being the most widely deployed form of electricity storage globally [SOURCE]. However, heavy reliance on hydro
+      (PSH) being the most widely deployed form of electricity storage globally <sup><a href="#ref1">1</a></sup>. However, heavy reliance on hydro
       exposes the system to drought risk and may struggle to keep pace with growing electricity demand, as indicated by the
       increase of both hydro and gas generation in 2022.</p>
     <p>Diversification into wind and solar introduces variability on the grid and new operational requirements. Generators
@@ -292,7 +308,9 @@
       but part of a broader global shift toward redesigning electricity markets to manage renewable variability while
       safeguarding reliability and investment.
     </p>
-
+    <p>
+      In summary, these dynamics imply the following:
+    </p>
     <ol>
       <li>Accommodation of variable renewables reduces concentration risk but increases flexibility requirements.</li>
       <li>Expanding geothermal capacity in Kenya and neighboring countries along the East African Rift System (EARS) to make
@@ -329,6 +347,19 @@
       script.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
       viz.parentNode.insertBefore(script, viz);
     </script>
+
+  <h2>References</h2>
+<ol>
+  <li id="ref1">
+    International Hydropower Association. 
+    Pumped storage hydropower. 
+    London: International Hydropower Association; 2022. 
+    Available from: 
+    <a href="https://www.hydropower.org/factsheets/pumped-storage" target="_blank">
+      https://www.hydropower.org/factsheets/pumped-storage
+    </a>
+  </li>
+</ol>
 
   </div>
 </body>
